@@ -1,12 +1,31 @@
-@media (max-width: 1440px) {
-  
-}
-
 @media (max-width: 1310px) {
   
 }
 
 @media (max-width: 1280px) {
+  .secInner01 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .notice {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .notice li {
+  width: 200px;
+  }
+  .notice a {
+    width: 200px;
+    height: 120px;
+  }
+  .noticeTxt {
+    width: 200px;
+    height: 120px;
+  }
+  .noticeInner img {
+    display: none;
+  }
   
 }
 
@@ -20,7 +39,20 @@
 }
 
 @media (max-width: 960px) {
-  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .title {
+    width: 100%;
+  }
+  .mainGame {
+    grid-template-columns: 1fr;
+  }
+  .otherGames {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 750px) {
