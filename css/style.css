@@ -1,0 +1,363 @@
+
+/* header */
+header {
+  width: 100%;
+  height: 80px;
+  background-color: 111111;
+  position: absolute;
+  background-color: #252423;
+  background-color: transparent;
+  z-index: 10;
+}
+/* left */
+.headerLeft {
+  float: left;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  gap: 20px;
+  padding-left: 136px;
+}
+.headerLeft h1 {
+  font-size: 1.2rem;
+}
+.logoPlusMenu {
+
+}
+.logoRight {
+  width: 26px;
+  height: 26px;
+}
+
+.menuLeft .navi {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.navi > li {
+  padding: 0 15px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 4px;
+  position: relative;
+}
+.navi > li > a {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: -0.02rem;
+}
+.navi > li > a svg {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+.navi > li:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+
+}
+/* right */
+.menuRight {
+  padding-right: 38px;
+  float: right;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  gap: 20px;
+}
+.langMenu { /* 언어 21가지   */
+  display: none;
+}
+.searchBox {
+  position: relative;
+}
+.search {
+  width: 200px;
+  height: 34px;
+  border-radius: 20px;
+  border: 1px solid #f9f9f9;
+  background-color: transparent;
+  padding: 0 22px;
+}
+.searchBox svg{
+  content: '';
+  width: 19px;
+  height: 22px;
+  color: #f9f9f9;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.menuRight button {
+  width: 80px;
+  height: 35px;
+  background-color: #d13639;
+  color: #111;
+  border-radius: 15px;
+  cursor: pointer;
+  border: 0 none;
+  font-weight: bold;
+  letter-spacing: -0.05rem;
+}
+
+
+/* main */
+main {
+  width: 100%;
+  height: 817px;
+  padding-top: 100px;
+  background-image: url(../img/TFT-Set7-Riotbar-App-Switcher-Promo-Card-Update.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 114px;
+}
+.mainInner {
+  width: 100%;
+  height: 897px;
+  position: absolute;
+  top: 0; left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+.title {
+  width: 35%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+  margin-left: 10px;
+  position: relative;
+  z-index: 5;
+}
+.title img {
+  width: 50%;
+}
+.title h2 {
+  letter-spacing: -0.1rem;
+  text-align: center;
+  font-size: 30px;
+}
+.title button {
+  border-radius: 25px;
+  background-color: #fe9739;
+  width: 248px;
+  height: 72px;
+  line-height: 72px;
+  text-align: end;
+  padding-right: 27px;
+  font-size: 28px;
+  font-weight: bold;
+  position: relative;
+  cursor: pointer;
+  border: 0 none;
+}
+.title button svg {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  border-radius: 50%;
+}
+.title button:hover {
+  box-shadow: 0 0 20px rgba(254, 147, 57, 0.5);
+}
+
+/* section 공통 */
+.secTit {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 73px;
+  text-align: center;
+}
+
+/* section01: 소식 */
+.sec01 {
+  height: 630px;
+  margin-bottom: 212px;
+  display: flex;
+  flex-direction: column;
+}
+.secInner01 {
+  display: flex;
+  gap: 24px;
+}
+.secInner01 a {
+  position: relative;
+  width: 1024px;
+  height: 512px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.secInner01 a img {
+  width: 1024px;
+  height: 512px;
+  object-fit: cover;
+}
+.secInner01 a h3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 24px;
+  margin-bottom: 57px;
+  font-weight: bold;
+  font-size: 28px;
+}
+/* notice */
+.notice {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+.notice li {
+  width: 692px;
+  height: 130px;
+  border-radius: 7px;
+  position: relative;
+  background-color: rgba(128, 128, 128, 0.2);
+}
+
+.notice a {
+  overflow: hidden;
+  width: 682px;
+  height: 120px;
+  background-color: #222;
+  position: relative;
+}
+.noticeTxt {
+  position: absolute;
+  width: 510px;
+  height: 120px;
+  line-height: 1.5;
+  background-color: #222;
+  float: left;
+  letter-spacing: -0.1rem;
+  padding: 26px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.noticeTxt p {
+  color: #5e5d5b;
+  font-size: 15px;
+}
+.noticeInner img {
+  clip-path: polygon(100% 0, 100% 100%, 35% 100%, 50% 0);
+}
+.secInner01 a:hover,
+.notice li:hover {
+  /* box-shadow: 0 0 10px rgba(255, 255, 255, 1); */
+  border:2px solid #efefef;
+  /* box-sizing: border-box; */
+}
+
+
+
+/* section02: 게임 */
+.sec02 {
+  height: 1424px;
+  margin-bottom: 150px;
+}
+
+
+/* section03: 지원 */
+.sec03 {
+  width: 100%;
+  height: 573px;
+  position: relative;
+}
+.sec03Left {
+  background-color: #fff;
+  color: #0a0a0a;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0; top: 0;
+  float: left;
+  clip-path: polygon(0 0, 55% 0, 50% 100%, 0 100%);
+  padding: 5rem 0 0 20rem;
+}
+.sec03Left h2 {
+  color: #0a0a0a;
+  font-size: 44px;
+  letter-spacing: -0.2rem;
+  margin-bottom: 30px;
+}
+.sec03Left p {
+  color: #656462;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: -0.1rem;
+  margin-bottom: 43px;
+}
+.sec03Left .sec03Box {
+  
+}
+.sec03Left .sec03Box a {
+  float: left;
+  width: 268px;
+  height: 142px;
+  border-radius: 6px;
+  background-color: #dfdede;
+  font-size: 50px;
+  font-weight: bold;
+  color: #0a0a0a;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+.sec03Left button {
+  color: #656462;
+  position: absolute;
+  bottom: 5rem;
+  left: 30rem;
+  background-color: #d1363a;
+  border: 0 none;
+  width: 260px;
+  height: 64px;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #f9f9f9;
+  cursor: pointer;
+}
+.sec03Left button:hover {
+  opacity: 0.9;
+}
+.sec03Right {
+  width: 50%;
+  height: 573px;
+  right: 0; top: 0;
+  float: right;
+}
+.sec03Right img {
+  height: 573px;
+  object-fit: cover;
+}
+
+
+/* footer */
+footer {
+  width: 100%;
+  height: 204px;
+  background-color: #252423;
+  color: #8a8887;
+}
+.fTopRight a,
+.fBotLeft p,
+.fBotRight
+{
+  color: #8a8887;
+
+}
+
+
