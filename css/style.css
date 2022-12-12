@@ -9,6 +9,11 @@ header {
   background-color: transparent;
   z-index: 10;
 }
+header.drop {
+  position: fixed;
+  animation: dropHeader 0.3s ease-in-out;
+  background-color: #111;
+}
 /* left */
 .headerLeft {
   float: left;
