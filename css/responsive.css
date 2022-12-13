@@ -1,8 +1,8 @@
-@media (max-width: 1310px) {
+@media all and (max-width: 1310px) {
   
 }
 
-@media (max-width: 1280px) {
+@media all and (max-width: 1280px) {
   .secInner01 {
     display: flex;
     flex-direction: column;
@@ -12,24 +12,59 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  .notice li {
-  width: 200px;
-  }
-  .notice a {
-    width: 200px;
-    height: 120px;
+  .noticeInner {
+    position: relative;
+    padding: 1.183rem;
+    border-radius: 0.438rem;
+    overflow: hidden;
+    width: 40%;
+    height: 7.5rem;
+    background-color: #222;
   }
   .noticeTxt {
-    width: 200px;
-    height: 120px;
+    width: 100%;
   }
   .noticeInner img {
-    display: none;
+    width: 0;
   }
   
+  .mainGame {
+    flex-wrap: wrap;
+  }
+  .lol {
+    background: url(../img/lol-card-bg-900.jpg) center/cover no-repeat;
+  }
+  .val {
+    background: url(../img/val-card-bg-900.png) center/cover no-repeat;
+  }
+  .tft {
+    background: url(../img/tft-card-bg-900.jpg) center/cover no-repeat;
+  }
+  .wildRift {
+    background: url(../img/lol-wildrift-productimage563.png) center/cover no-repeat;
+  }
+  .runeterra {
+    background: url(../img/legends-of-runeterra-productimage563.png) center/cover no-repeat;
+  }
+  .ruinedKing {
+    background: url(../img/ruined-king-productimage563.png) center/cover no-repeat;
+  }
+  .hextechMayhem {
+    background: url(../img/hextetch-mayhem-card-bg-563.jpg) center/cover no-repeat;
+  }
+  .convrgence {
+    background: url(../img/convrgence-productimage563.png) center/cover no-repeat;
+  }
+  .songOfNunu {
+    background: url(../img/song-of-nunu-card-bg-563.jpg) center/cover no-repeat;
+  }
+  .otherGames {
+    width: 53.438rem;
+    height: 24.375rem;
+  }
 }
 
-@media (max-width: 1024px) {
+@media all and (max-width: 1024px) {
   .navi > li {
     display: none;
   }
@@ -38,7 +73,7 @@
   }
 }
 
-@media (max-width: 960px) {
+@media all and (max-width: 960px) {
   main {
     display: flex;
     justify-content: center;
@@ -46,24 +81,61 @@
   }
   .title {
     width: 100%;
+    gap: 0;
+  }
+  .title img {
+    width: 40%;
+  }
+  .subtitle {
+    font-size: 25px;
   }
   .mainGame {
     grid-template-columns: 1fr;
   }
   .otherGames {
     grid-template-columns: 1fr;
+    width: 53.438rem;
+    height: 24.375rem;
+  }
+
+  .lol {
+    background: url(../img/lol-card-bg-1800.jpg) center/cover no-repeat;
+  }
+  .val {
+    background: url(../img/val-card-bg-1800.png) center/cover no-repeat;
+  }
+  .tft {
+    background: url(../img/tft-card-bg-1800.jpg) center/cover no-repeat;
+  }
+  .wildRift {
+    background: url(../img/lol-wildrift-productimage1800.png) center/cover no-repeat;
+  }
+  .runeterra {
+    background: url(../img/legends-of-runeterra-productimage1800.png) center/cover no-repeat;
+  }
+  .ruinedKing {
+    background: url(../img/ruined-king-productimage1800.png) center/cover no-repeat;
+  }
+  .hextechMayhem {
+    background: url(../img/hextetch-mayhem-card-bg-1800.jpg) center/cover no-repeat;
+  }
+  .convrgence {
+    background: url(../img/convrgence-productimage\ 1800.png) center/cover no-repeat;
+  }
+  .songOfNunu {
+    background: url(../img/song-of-nunu-card-bg-1800.jpg) center/cover no-repeat;
   }
 }
 
-@media (max-width: 750px) {
+@media all and (max-width: 750px) {
   
 }
 
-@media (max-width: 606px) {
+@media all and (max-width: 606px) {
   
 }
 
-@media (max-width: 549px) {
+@media all and (max-width: 549px) {
   
 }
 
